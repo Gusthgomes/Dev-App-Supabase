@@ -1,0 +1,4 @@
+export const supaUrl = "https://nwwfloisffnsrwsjkeml.supabase.co";
+
+export const anonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im53d2Zsb2lzZmZuc3J3c2prZW1sIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzQ1Njg1OTgsImV4cCI6MjA1MDE0NDU5OH0.NRF6A1xGGaTHTo4VUc3M74Su6Wqz77PmfqtTihHCskQ"
+
