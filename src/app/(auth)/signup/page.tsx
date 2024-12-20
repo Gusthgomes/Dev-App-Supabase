@@ -33,7 +33,7 @@ export default function Signup() {
       }
 
       setLoading(false);
-      router.replace('/');
+      router.replace('/(auth)/signin/page');
   }
 
  return (
@@ -85,7 +85,9 @@ export default function Signup() {
         </View>
 
         <Pressable style={styles.button} onPress={ handleSignUp }>
-          <Text style={ styles.buttonText}>Cadastrar</Text>
+          <Text style={ styles.buttonText}>
+            { loading ? 'Carregando...' : 'Cadastrar'} 
+          </Text>
         </Pressable>
 
       </View>
